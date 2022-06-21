@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container nav-flex">
+        <nav class="header-nav">
+          <a class="logo link" href="/"
+            >Здорові<span class="logo-black">Зубки</span></a
+          >
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="/"
+                >Головна сторінка</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link current" href="/products"
+                >Послуги</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="/about">Про нас</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="/rewievs">Відгуки</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact-list list">
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="mailto:pavlosakharskiy@gmail.com"
+              ><svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              pavlosakharskiy@gmail.com</a
+            >
+          </li>
+          <li class="header-contact-item">
+            <a class="header-contact-link link" href="tel:+38093000000"
+              ><svg class="contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-mobile"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Основной контент -->
+    <main>
+      
+      <section class="portfolio-section">
+        <div class="container">
+          <h1 hidden>Примеры работ</h1>
+          <ul class="portfolio-btn-list list" ">
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Усі</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Пломбування</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Брекети</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Виніри</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Чистка</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button class="portfolio-btn" type="button">Коронки</button>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="portfolio-list list" id="products">
+            <li class="portfolio-item">
+              <div class="portfolio-description">
+                <img
+                src="./images/plomba.jpg"
+                alt="открытый ноутбук с сайтом Технокряк"
+                width="370"
+                height="294"
+                />
+                <div class="portfolio-overlay">
+                  <p class="portfolio-description-text">На фото результат пломбування 7 та 8 зубів.</p>
+                </div>
+                </div>
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title"></h2>
+                <p class="portfolio-list-text">Пломбування</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-description">
+                <img
+                  src="./images/estetik-plomba.jpg"
+                  alt="парни играют в баскетбол"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-overlay">
+                  <p class="portfolio-description-text">Естетичне пломбування</p>
+                </div>
+              </div>
+                <div class="portfolio-border">
+                <h2 class="portfolio-list-title">
+                </h2>
+                <p class="portfolio-list-text">Пломбування</p>
+              </div>
+            </li>
+
+            <li class="portfolio-item">
+              <div class="portfolio-description">
+                <img
+                  src="./images/karies.jpg"
+                  alt="karies"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-overlay">
+
+                  <p class="portfolio-description-text">Полікували каріес жувального зуба. Клієнт задоволений</p>
+                </div>
+              </div>
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title"></h2>
+                <p class="portfolio-list-text">Пломбування</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-description">
+                <img
+                  src="./images/viniry.jpg"
+                  alt="karies"
+                  width="370"
+                  height="294"
+                />
+                <div class="portfolio-overlay">
+
+                  <p class="portfolio-description-text">На фото якісні виніри на вибір.</p>
+                </div>
+              </div>
+              <div class="portfolio-border">
+                <h2 class="portfolio-list-title"></h2>
+                <p class="portfolio-list-text">Виніри</p>
+              </div>
+            </li>
+
+           
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Подвал -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-flex">
+          <div class="footer-contacts-flex">
+            <a class="logo link" href="./index.html"
+            >Здорові<span class="logo-black">Зубки</span></a>
+            <!-- Список контактов -->
+            <address class="footer-contact">
+              <ul class="footer-contact-list list">
+                <li class="footer-contact-item">
+                  <a
+                    class="footer-contact-link address link"
+                    href="https://goo.gl/maps/CdvJLRiEL6Q8Smko8"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >м.Новояворівськ</a
+                  >
+                </li>
+                <li class="footer-contact-item">
+                  <a
+                    class="footer-contact-link link"
+                    href="mailto:info@devstudio.com"
+                    >pavlosakharskiy@gmail.com</a
+                  >
+                </li>
+                <li class="footer-contact-item">
+                  <a class="footer-contact-link link" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-social-flex">
+            <p class="footer-social-text">Підпишись на нас</p>
+            <ul class="footer-social-list list">
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-submit">
+            <p class="footer-submit-text">Підпишись на новини</p>
+            <div class="footer-submit-form">
+                          <button class="footer-submit-btn" type="submit">Ми у Telegram</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/fetch.js"></script>
+    <script>
+
+      const ul = document.getElementById('products');
+      
+    </script>
+    
+  </body>
+</html>
